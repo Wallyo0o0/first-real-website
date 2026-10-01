@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
      <head>
-    <title>Yahya's website</title>
-    <link rel="icon" type="image/jpg" href="/images/zues.jpg">
+    <title>Laygo</title>
+    <link rel="icon" type="image/jpg" href="/images/RICK.jfif">
      </head>
      <body>
      <h1>Hello</h1>
@@ -49,8 +49,34 @@
       <input type="text" id="username" placeholder="Name123" required>
       <br>
       <label from="password">Password:</label>
-      <input type="password" id="password" placeholder="Password123" minlength="8" max length="20" required>
+      <input type="password" id="password" placeholder="Password123" minlength="8" maxlength="20" required>
       <br>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="200" value="1" required>
+      <br>
+      <label for="title">Title: </label>
+
+      <label for="Men">Men </label>
+      <input type="radio" id="Men" Value="Men" name="gender">
+      <br>
+      <label for="Women">Women </label>
+      <input type="radio" id="Women" Value="Women" name="gender">
+      <br>
+      <label for="Private">Prefer not to say </label>
+      <input type="radio" id="Private" Value="Private" name="gender">  
+      <br>
+      <label for="payment">Payment Method:</label>
+      <select id="payment">
+        <option value="Mastercard">Mastercard</option>
+        <option value="Visacard">Visacard</option>
+        <option value="Paypal">PayPal</option>
+      </select>
+      <br>
+      <label for="subscribe">Subcribe for Laygo pro</label>
+      <input type="checkbox" id="subscribe" >
+      <br>
+      <label for="comments">Comments:</label>
+      <textarea id="comments"></textarea>
       <input type="submit">
       <br>
       <input type="reset">
